@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-count]').forEach(el=>{let t=+el.dataset.count,c=0;
+let i=setInterval(()=>{c++;el.textContent=c+'+';if(c>=t)clearInterval(i);},120);});

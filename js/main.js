@@ -1,1 +1,1 @@
-console.log('Lokesh Portfolio Milestone 1 loaded');
+window.addEventListener('scroll',()=>{document.getElementById('navbar').style.background=window.scrollY>40?'rgba(11,17,32,.8)':'rgba(11,17,32,.3)';});
