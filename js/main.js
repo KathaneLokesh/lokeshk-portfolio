@@ -1,0 +1,1 @@
+console.log('Lokesh Portfolio Milestone 1 loaded');
